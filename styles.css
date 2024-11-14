@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+.banner {
+    height: 75vh;
+    border: solid;
+    border-color: rgba(51, 168, 219, 1);
+    border-width: 0px 0px 1px;
+    background-image: url('assets/images/banner.png');
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px;
+    color: rgba(51, 168, 219, 1);
+}
+
+#p1 {
+    height: 10vh;
+    width: 38vw;
+    color: white;
+    font-size: 25px;
+}
+
+button {
+    font-size: 25px;
+    font-family: sans-serif;
+    color: rgba(51, 168, 219, 1);
+    border: solid 1px;
+    width: 18vw;
+    height: 8vh;
+    background-color: transparent;
+
+}
+
+button:hover {
+    color: white;
+    background-color: rgba(51, 168, 219, 1);
+}
+
+.banner-content {
+    margin: 10px;
+}
+
+#course-content {
+    height: 60vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hOne {
+    margin: 2vh;
+    font-size: 6vh;
+    color: rgba(51, 168, 219, 1);
+}
+
+#p2 {
+    font-size: 2.6vh;
+    width: 52vw;
+    height: 8vh;
+    color: white;
+}
+
+.module {
+    color: white;
+    background-color: rgb(80, 79, 79);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh;
+    border: solid 1px;
+    border-color: rgba(51, 168, 219, 1);
+    border-radius: 25px;
+    width: 25vw;
+    height: 6vh;
+}
+
+span {
+    color: rgba(51, 168, 219, 1);
+}
+
+#transform-world {
+    height: 45vh;
+    background-image: url('assets/images/woman-code.png');
+    background-color: rgb(19, 16, 54);
+    opacity: 0.8;
+    filter: saturate(1.5) contrast(1.6) brightness(0.9);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+
+#p3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px rgba(51, 168, 219, 1);
+    margin-left: 16vw;
+    text-align: left;
+    color: white;
+    font-size: 4vh;
+    width: 13vw;
+    height: 14vh;
+}
+
+#professional-challenges {
+    color: rgba(51, 168, 219, 1);
+    background-color: black;
+    border: solid;
+    border-color: rgba(51, 168, 219, 1);
+    border-width: 0px 0px 1px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hTwo {
+    margin: 5vh;
+    width: 38vw;
+    font-size: 6vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#img {
+    width: 90vh;
+    margin-bottom: 2vh;
+}
+
+#p4 {
+    color: white;
+    width: 60vw;
+    margin-bottom: 8vh;
+    font-size: 3vh;
+}
+
+footer {
+    color: white;
+    height: 20vh;
+    background-image: linear-gradient(black 80%, rgb(2, 44, 61));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vh;
+}
+
+a {
+    color: rgba(51, 168, 219, 1);
+}
